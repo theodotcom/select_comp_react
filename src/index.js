@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import { Select } from "./lib";
+import {Select}  from "./lib/Select.js";
 import { useState } from 'react'
 
 
@@ -16,11 +16,10 @@ const App = () => {
   return (
   <div style={{ width: 640, margin: "15px auto" }}>
     <h1>Hello React</h1>
-    <Select   items={departments}
-                                onChange={(department) =>
-                                    setDepartment(department)
-                                }
-                                selected={department} />
+    <Select   
+    items={departments}
+    onChange={(department) =>setDepartment(department)}
+    selected={department} />
   </div>)
 };
 

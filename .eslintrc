@@ -1,1 +1,2 @@
-{ "extends": "react-app" }
+{ "extends": "react-app" ,
+"parser": "@babel/eslint-parser"}
