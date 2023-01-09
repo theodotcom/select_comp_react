@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from "react-dom";
-import {Select}  from "./lib/Select.js";
+import {Select}  from "../dist/lib/Select.js";
 import { useState } from 'react'
 
 
